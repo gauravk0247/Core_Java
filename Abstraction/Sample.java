@@ -1,7 +1,9 @@
-//25/07/23
+// 03/10/23
+// Q. Create empty and incomplete method in abstract class.
+
 abstract class sampleOne{
 	abstract void m1();
-	abstract void m2(){
+	void m2(){
 		System.out.println("Inside m2 method - sampleOne");
 	}
 }

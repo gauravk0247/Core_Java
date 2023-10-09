@@ -1,0 +1,2 @@
+// Q. Can one abstract class extends from another abstract class.
+class Sample3{}
