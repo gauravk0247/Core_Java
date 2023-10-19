@@ -1,4 +1,4 @@
-// pending
+// 18/20/23
 class Demo16{
 	public static void main(String[] args){
 		String str1 = "This is an example of split method";
