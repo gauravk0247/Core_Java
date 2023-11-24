@@ -6,14 +6,13 @@ import java.io.IOException;
 import java.io.FileOutputStream;
 import java.io.BufferedOutputStream;
 
-
 class BufferInOut{
 	public static void main(String[] args) throws FileNotFoundException, IOException{
 		// Read
 		FileInputStream fis = new FileInputStream("D:\\BufferInput.txt");
 		BufferedInputStream bis = new BufferedInputStream(fis);
 		// Write
-		FileOutputStream fos = new FileOutputStream("BufferOutput.txt");
+		FileOutputStream fos = new FileOutputStream("D:\\BuffOut.txt");
 		BufferedOutputStream bos = new BufferedOutputStream(fos);
 		int info;
 		while((info=bis.read())!=-1){
@@ -21,9 +20,9 @@ class BufferInOut{
 			bos.write(info);
 		}
 		bos.flush();
-		fis.cloase();
+		fis.close();
 		bis.close();
 		fos.close();
-		bos.cloase();
+		bos.close();
 	}
 }
