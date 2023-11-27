@@ -1,7 +1,7 @@
 // 21/11/23
 interface Inta{
 	void m1();
-	void m2();
+	void m2();``
 }
 class Cyber3{
 	Inta i1 = new Inta(){
