@@ -3,7 +3,7 @@ package collection.set;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Set1 {
+public class HashSet1 {
 
 	public static void main(String[] args) {
 	HashSet hs1 = new HashSet();
