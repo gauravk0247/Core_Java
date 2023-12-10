@@ -11,10 +11,9 @@ public class ArrayList23 {
 		i.add(300);
 		i.add(400);
 		i.add(500);
-		// Pending
 		Integer[] ii = i.toArray(new Integer[i.size()]);
 		for(int j=0;j<ii.length;j++) {
-			System.out.println(j[ii]);
+			System.out.println(ii[j]);
 		}
 	}
 }
